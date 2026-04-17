@@ -1,0 +1,65 @@
+public class utspart1 {
+     public static void main(String[] args) {
+         String[] nama = {
+            "Andi Pratama","Sinta Dewi Lestari","Budi Santoso","Rina Ayu Putri",
+            "Eko Wijaya","Maya Sari","Dimas Prakoso","Nadia Safira",
+            "Rizky Aditya","Putri Nirmala";
+        }
+
+        String[] nim = {
+            "2201012345","2201012567","2201012789","2201012910",
+            "2201013034","2201013256","2201013478","2201013690",
+            "2201013812","2201014035";
+        }
+
+        int[] nilai = {85,92,78,88,65,95,72,81,90,76};
+        int n = nilai.length;
+
+        System.out.print("Sebelum diurutkan\t: ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(nilai[i] + (i == n - 1 ? "\n" : ", "));
+        }
+
+        System.out.println("==============================================================");
+
+        for (int i = 0; i < n - 1; i++) {
+            int maxIndex = i;
+
+            for (int j = i + 1; j < n; j++) {
+                if (nilai[j] > nilai[maxIndex]) { // DESC
+                    maxIndex = j;
+                }
+            }
+
+            int tempNilai = nilai[maxIndex];
+            nilai[maxIndex] = nilai[i];
+            nilai[i] = tempNilai;
+
+            String tempNama = nama[maxIndex];
+            nama[maxIndex] = nama[i];
+            nama[i] = tempNama;
+
+            String tempNim = nim[maxIndex];
+            nim[maxIndex] = nim[i];
+            nim[i] = tempNim;
+
+            System.out.print("Iterasi ke " + (i + 1) + "\t\t: ");
+            for (int k = 0; k < n; k++) {
+                System.out.print(nilai[k] + (k == n - 1 ? "\n" : ", "));
+            }
+        }
+
+        System.out.println("==============================================================");
+
+        // HASIL AKHIR
+        System.out.println("\nHasil Akhir (Selection Sort):");
+        System.out.println("==============================================================");
+        System.out.printf("%-3s %-22s | %-12s | %-5s\n", "No", "Nama", "NIM", "Nilai");
+        System.out.println("==============================================================");
+
+        for (int i = 0; i < n; i++) {
+            System.out.printf("%-3d %-22s | %-12s | %-5d\n",
+                    (i + 1), nama[i], nim[i], nilai[i]);
+        }
+    }
+}
