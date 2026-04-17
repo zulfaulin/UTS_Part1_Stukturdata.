@@ -1,6 +1,6 @@
 # UTS_Part1_Stukturdata.
 Mengurutkan Data dengan Menggunakan Teknik Bubbble Sort, Insertion Sort, dan Selection Sort
-<img width="1075" height="588" alt="WhatsApp Image 2026-04-17 at 08 22 08 (1)" src="https://github.com/user-attachments/assets/ed188a23-27f5-4bbc-a826-1415547c3e4c" />
+<img width="500" height="400" alt="WhatsApp Image 2026-04-17 at 08 22 08 (1)" src="https://github.com/user-attachments/assets/ed188a23-27f5-4bbc-a826-1415547c3e4c" />
 
 **1. Bubble Sort**
 
