@@ -5,11 +5,13 @@ Mengurutkan Data dengan Menggunakan Teknik Bubbble Sort, Insertion Sort, dan Sel
 **1. Bubble Sort**
 
 Berikut output dari teknik bubble sort
+
    <img width="600" height="450" alt="WhatsApp Image 2026-04-17 at 10 43 47" src="https://github.com/user-attachments/assets/14e94965-0ac2-4510-b7f1-a38b964495a7" />
 
 **3. Insertion Sort**
 
 Berikut output dari teknik insertion sort
+
    <img width="600" height="450" alt="WhatsApp Image 2026-04-17 at 10 47 12" src="https://github.com/user-attachments/assets/ddc011c2-44c5-4e4e-a0e0-0ddd574e495b" />
 
 **5. Selection Sort**
